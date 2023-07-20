@@ -11,7 +11,7 @@ import postRouter from './routes/post.mjs';
 
 const app = express();
 app.use(express.json()); // body parser
-app.use(cors());
+// app.use(cors());
 
 app.use(authRouter);
 app.use(commentRouter);
